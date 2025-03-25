@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "O'Pay Node SDK",
   "scripts": {
-    "build": "rimraf dist && rimraf ./node_modules/.cache && npx tsc -b",
     "test": "vitest"
   },
   "repository": {
@@ -29,8 +28,6 @@
   },
   "homepage": "https://github.com/rhy3h/opay-js#readme",
   "devDependencies": {
-    "rimraf": "^6.0.1",
-    "ts-node": "^10.9.2",
     "typescript": "^5.8.2",
     "vitest": "^3.0.9"
   }
