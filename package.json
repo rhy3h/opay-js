@@ -1,0 +1,37 @@
+{
+  "name": "opay-js",
+  "version": "1.0.0",
+  "description": "O'Pay Node SDK",
+  "scripts": {
+    "build": "rimraf dist && rimraf ./node_modules/.cache && npx tsc -b",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhy3h/opay-js.git"
+  },
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "src"
+  ],
+  "author": "rhy3h",
+  "license": "MIT",
+  "keywords": [
+    "opay"
+  ],
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/rhy3h/opay-js/issues"
+  },
+  "homepage": "https://github.com/rhy3h/opay-js#readme",
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
